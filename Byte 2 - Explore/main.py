@@ -24,8 +24,8 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     autoescape=True)
 
 # This API key is provided by google as described in the tutorial
-API_KEY = 'XXxxXxXXXXxxNXXxXXXxxxNNXXxxxxxxxXXXxXX'
-
+API_KEY = 'AIzaSyDq3KnkUfZzl4iDl077f2JBcM67J7lJ-70'
+#'AIzaSyDq3KnkUfZzl4iDl077f2JBcM67J7lJ-70'
 # This uses discovery to create an object that can talk to the 
 # fusion tables API using the developer key
 service = build('fusiontables', 'v1', developerKey=API_KEY)
