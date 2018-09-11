@@ -53,22 +53,31 @@
       <div class="page-header">
 	<h2>Is the data complete?</h2>
 	<p>After generated a pivot table counting the number of entries for each week, I think this data is relatively complete in terms of Billboard records.
-	However, the popularity chart provided by Billboard may be free of bias. 
+	However, the popularity chart provided by Billboard may not be free of bias. 
 	For example, in the very early stage of Billboard Hot 100, they aggregated data from Best Sellers in Stores, Most Played by Jockeys and Most Played in Jukeboxes, 
 	and the radio station most played has been replaced by streaming date nowadays; 
 	To what extent the weight of each component chart reflects the reality? Are the top 100s really the most popular 100 songs? 
 	This may become the source of incompleteness. 
+	Especially nowadays, some songs uploaded by youtubers, demo singer can become very popular online but this is not reflected on Billboard.
 </p>
       </div>
       
       <div class="page-header">
 	<h2>Is the data coherent?</h2>
-	<p>Yes, the number of total singers who had been on the Billboard for each year is quite consitent across years.</p>
+	<p>
+	I think this data is relatively coherent. 
+	There are no obvious misentered entry, most of singers have more than one songs or are in multiple weeks.
+	Most of value are within reasonable range, like previous week, peak position, and weak position are all in range from 1 to 100; 
+	The only issue I found is the 'weeks on charts' are in range from (0, 87), song with 0 'weeks on charts' may due to missing data or entry errors.
+	
+	
+	</p>
       </div>
 
       <div class="page-header">
 	<h2>Is the data correct?</h2>
-	<p>I think most of the data entries are correct. I extracted the set of performers and did a cross check with Billboard top singer list, turns out most of them are matched. </p>
+	<p>I think most of the data entries are correct. I extracted the set of performers and did a cross check with Billboard top singer list, turns out most of them are matched. 
+	And the reputation of Billboard is historically established, I think the result drawn from Billboard data should be accoutable. </p>
       </div>
 
     </div> <!-- /container -->
